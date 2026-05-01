@@ -4,5 +4,24 @@
     "name": "AgentKit"
   },
   "description": "Inventai MCP Server 集合",
-  "plugins": []
+  "plugins": [
+    {
+      "name": "fetch-mcp",
+      "source": "./fetch-mcp",
+      "description": "網頁抓取 MCP Server，讓 AI 助理能擷取任意網址的內容（HTML 轉 Markdown）",
+      "version": "1.0.0"
+    },
+    {
+      "name": "filesystem-mcp",
+      "source": "./filesystem-mcp",
+      "description": "本地檔案系統 MCP Server，讓 AI 助理安全地讀寫指定目錄下的檔案",
+      "version": "1.0.0"
+    },
+    {
+      "name": "github-mcp",
+      "source": "./github-mcp",
+      "description": "GitHub 官方 MCP Server，提供 repo、issues、PR、branch、file 等完整 GitHub API 操作",
+      "version": "1.0.0"
+    }
+  ]
 }
