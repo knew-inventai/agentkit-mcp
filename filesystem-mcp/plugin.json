@@ -1,0 +1,12 @@
+{
+  "name": "filesystem-mcp",
+  "version": "1.0.0",
+  "description": "本地檔案系統 MCP Server，讓 AI 助理安全地讀寫指定目錄下的檔案",
+  "author": { "name": "knew-inventai", "email": "knew@chtinventai.com" },
+  "license": "MIT",
+  "_agentkit": {
+    "type": "mcp",
+    "tags": ["filesystem", "official", "files", "local"],
+    "compatible": ["claude", "openai", "gemini"]
+  }
+}

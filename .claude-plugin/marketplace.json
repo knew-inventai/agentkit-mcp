@@ -1,0 +1,8 @@
+{
+  "name": "agentkit-mcp",
+  "owner": {
+    "name": "AgentKit"
+  },
+  "description": "Inventai MCP Server 集合",
+  "plugins": []
+}
