@@ -1,12 +1,25 @@
 {
-  "name": "github-mcp",
-  "version": "1.0.0",
-  "description": "GitHub 官方 MCP Server，提供 repo、issues、PR、branch、file 等完整 GitHub API 操作",
-  "author": { "name": "knew-inventai", "email": "knew@chtinventai.com" },
-  "license": "MIT",
   "_agentkit": {
-    "type": "mcp",
-    "tags": ["github", "official", "vcs", "issues", "pr"],
-    "compatible": ["claude", "openai", "gemini"]
-  }
+    "compatible": [
+      "claude",
+      "openai",
+      "gemini"
+    ],
+    "tags": [
+      "github",
+      "official",
+      "vcs",
+      "issues",
+      "pr"
+    ],
+    "type": "mcp"
+  },
+  "author": {
+    "email": "knew@chtinventai.com",
+    "name": "knew-inventai"
+  },
+  "description": "GitHub \u5b98\u65b9 MCP Server\uff0c\u63d0\u4f9b repo\u3001issues\u3001PR\u3001branch\u3001file \u7b49\u5b8c\u6574 GitHub API \u64cd\u4f5c",
+  "license": "MIT",
+  "name": "github-mcp",
+  "version": "1.0.0"
 }

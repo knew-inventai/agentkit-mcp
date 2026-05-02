@@ -1,12 +1,24 @@
 {
-  "name": "fetch-mcp",
-  "version": "1.0.0",
-  "description": "網頁抓取 MCP Server，讓 AI 助理能擷取任意網址的內容（HTML 轉 Markdown）",
-  "author": { "name": "knew-inventai", "email": "knew@chtinventai.com" },
-  "license": "MIT",
   "_agentkit": {
-    "type": "mcp",
-    "tags": ["fetch", "web", "scraping", "official"],
-    "compatible": ["claude", "openai", "gemini"]
-  }
+    "compatible": [
+      "claude",
+      "openai",
+      "gemini"
+    ],
+    "tags": [
+      "fetch",
+      "web",
+      "scraping",
+      "official"
+    ],
+    "type": "mcp"
+  },
+  "author": {
+    "email": "knew@chtinventai.com",
+    "name": "knew-inventai"
+  },
+  "description": "\u7db2\u9801\u6293\u53d6 MCP Server\uff0c\u8b93 AI \u52a9\u7406\u80fd\u64f7\u53d6\u4efb\u610f\u7db2\u5740\u7684\u5167\u5bb9\uff08HTML \u8f49 Markdown\uff09",
+  "license": "MIT",
+  "name": "fetch-mcp",
+  "version": "1.0.0"
 }

@@ -23,8 +23,8 @@ GitHub 官方 MCP Server，讓 AI 助理可以直接操作 GitHub repos、issues
 ## 取得 Token
 
 1. 前往 https://github.com/settings/tokens
-2. 建立 Personal Access Token（需要 `repo`、`read:org` 等 scope）
-3. 將 token 填入設定的 `GITHUB_PERSONAL_ACCESS_TOKEN`
+1. 建立 Personal Access Token（需要 `repo`、`read:org` 等 scope）
+1. 將 token 填入設定的 `GITHUB_PERSONAL_ACCESS_TOKEN`
 
 ## 可用功能
 
