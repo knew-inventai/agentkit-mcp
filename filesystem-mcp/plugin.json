@@ -17,7 +17,7 @@
     "email": "knew@chtinventai.com",
     "name": "knew-inventai"
   },
-  "description": "\u672c\u5730\u6a94\u6848\u7cfb\u7d71 MCP Server\uff0c\u8b93 AI \u52a9\u7406\u5b89\u5168\u5730\u8b80\u5beb\u6307\u5b9a\u76ee\u9304\u4e0b\u7684\u6a94\u6848",
+  "description": "本地檔案系統 MCP Server，讓 AI 助理安全地讀寫指定目錄下的檔案",
   "license": "MIT",
   "name": "filesystem-mcp",
   "version": "1.0.0"
